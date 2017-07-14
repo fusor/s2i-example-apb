@@ -4,7 +4,8 @@ image: ansibleplaybookbundle/s2i-example-apb
 description: This is a sample Ansible Playbook Bundle (APB) to be used for the 's2i-apb' builder
 bindable: False
 async: optional
-metadata: 
+metadata:
+  imageUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/320px-Nginx_logo.svg.png
   dependencies: ['docker.io/nginx:latest']
 
 parameters: []
