@@ -5,8 +5,11 @@ description: This is a sample Ansible Playbook Bundle (APB) to be used for the '
 bindable: False
 async: optional
 metadata:
-  imageUrl: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/320px-Nginx_logo.svg.png
+  documentationUrl: https://github.com/fusor/s2i-example-apb/blob/master/README.md
+  longDescription: Sample Ansible Playbook Bundle to be used for s2i-apb
   dependencies: ['docker.io/nginx:latest']
+  displayName: Demo S2i Sample (APB)
+  console.openshift.io/iconClass: icon-nginx
 
 parameters: []
 #  - test_parameter:
