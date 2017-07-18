@@ -29,7 +29,7 @@
       service: s2i-example-apb
     containers:
     - env:
-      image: docker.io/nginx:latest # replace with your application image
+      image: '{{ image_name }}' # replace with your application image
       name: s2i-example-apb
       ports:
       - container_port: 80

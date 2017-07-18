@@ -8,14 +8,14 @@ metadata:
   documentationUrl: https://github.com/fusor/s2i-example-apb/blob/master/README.md
   longDescription: Sample Ansible Playbook Bundle to be used for s2i-apb
   dependencies: ['docker.io/nginx:latest']
+#  dependencies: ['docker.io/httpd:alpine']
   displayName: Demo S2i Sample (APB)
-  console.openshift.io/iconClass: icon-nginx
 
 parameters: []
-#  - test_parameter:
-#      default: test_parameter
+#  - image_name:
+#      default: docker.io/httpd:alpine
 #      type: string
-#      title: Test Parameter
+#      title: Image Name
   
 required: []
-#  - test_parameter
+#  - image_name
